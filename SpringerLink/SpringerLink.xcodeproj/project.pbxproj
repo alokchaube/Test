@@ -20,6 +20,7 @@
 		D611C0C01591B024007F4543 /* SearchResultCellIpad.m in Sources */ = {isa = PBXBuildFile; fileRef = D611C0BF1591B024007F4543 /* SearchResultCellIpad.m */; };
 		D611FA71156661ED00726809 /* SearchResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D611FA70156661ED00726809 /* SearchResultViewController_iPhone.xib */; };
 		D614AC401598384B00FE6054 /* VolumeListViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D614AC3F1598384B00FE6054 /* VolumeListViewController_ipad.xib */; };
+		D619857415B6BB500012F9D3 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = D619857315B6BB500012F9D3 /* test.m */; };
 		D63B148115343D4400B40721 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B148015343D4400B40721 /* UIKit.framework */; };
 		D63B148315343D4400B40721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B148215343D4400B40721 /* Foundation.framework */; };
 		D63B148515343D4400B40721 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B148415343D4400B40721 /* CoreGraphics.framework */; };
@@ -380,6 +381,8 @@
 		D611C0BF1591B024007F4543 /* SearchResultCellIpad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultCellIpad.m; sourceTree = "<group>"; };
 		D611FA70156661ED00726809 /* SearchResultViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultViewController_iPhone.xib; sourceTree = "<group>"; };
 		D614AC3F1598384B00FE6054 /* VolumeListViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VolumeListViewController_ipad.xib; sourceTree = "<group>"; };
+		D619857215B6BB500012F9D3 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		D619857315B6BB500012F9D3 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		D63B147C15343D4400B40721 /* SpringerLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringerLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63B148015343D4400B40721 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D63B148215343D4400B40721 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -907,6 +910,8 @@
 				D6E231031585EED700526F6D /* SplitDetailViewController.m */,
 				D63B148715343D4400B40721 /* Supporting Files */,
 				D6DAECEE154EA548008B980C /* Resources */,
+				D619857215B6BB500012F9D3 /* test.h */,
+				D619857315B6BB500012F9D3 /* test.m */,
 			);
 			path = SpringerLink;
 			sourceTree = "<group>";
@@ -2036,6 +2041,7 @@
 				D6D56816158F0C59002E4D92 /* SLPickerViewController.m in Sources */,
 				D6F64F4B1598762F0011133B /* AboutUsDetailViewController.m in Sources */,
 				D6D3F7FC15A6D9E900A70523 /* UISearchBar+UISearchBar_TextColor.m in Sources */,
+				D619857415B6BB500012F9D3 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
