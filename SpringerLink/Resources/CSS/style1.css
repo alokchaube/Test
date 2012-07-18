@@ -1,0 +1,208 @@
+
+/*  style for body  */
+body {
+    padding:10px;
+    margin-left: .1em;
+    margin-right: .1em;
+}
+
+/* hidden  */
+.hidden
+{
+	display: none;
+}
+
+/* style for Anchor */
+a {
+    text-decoration:none;
+    text-align: left;
+    font-size: 10pt;
+    font-family: Helvetica neue;
+     color: #0176C3;
+}
+
+/* style for Header without class */
+h1 {
+    
+    font-size: 14pt;
+    margin-top: .8em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-family: Georgia;
+    font-weight : normal;
+    color: #333333;  
+}
+
+/* style for simple paragraph without class */
+p {
+    font-size: 10pt;
+    margin-top: 0em;
+    margin-bottom: .4em;
+    text-align: left;
+    font-family: Helvetica neue;
+    color: #333333;
+}
+
+img {
+    margin-bottom: .14em;
+    margin-left : .3em;
+    margin-right : .4em;
+}
+
+/*
+ Introducing class------------
+ */
+
+/*  style for date and volume  */
+.vol {
+    text-align: left;
+    font-size: 10pt;
+    font-family: Helvetica neue;
+    color: #333333; 
+}
+
+/*  article title  */
+.article-title {
+    font-size: 14pt;
+    margin-top: 0.00em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    font-family: Georgia;
+    color: #333333;
+}
+
+/*  style for authors  */
+.authors_para {
+    font-size: 10pt;
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+    text-align: left;
+    font-family: Helvetica neue;
+    color: #333333;
+}
+
+/*  style for abstract title  */
+.abstract-title {
+    font-size: 12pt;
+    margin-top: 0.5em;
+    margin-bottom: .5em;
+    text-align: justify;
+    font-family: Georgia;
+    color: #333333;
+}
+.abstract-text {
+    margin-top: 0em;
+    margin-bottom: .9em;
+}
+/*  style for normal text  */
+.normal-para {
+    font-size: 10pt;
+    margin-top: 0.5em;
+    text-indent: 2.5em;
+    text-align: justify;
+    font-family: Helvetica neue;
+    color: #333333;
+}
+
+/*  style for button  */
+.normal-button {
+    font-size: 11pt;
+    margin-top: 10em;
+    margin-left: 3.1em;
+    /*text-indent: 5.5em;*/
+    text-align: center;
+    font-family: Helvetica neue;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 1.0px 0.3px #0F6AA5;
+
+}
+
+/*  style for button  */
+.normal-button-opaque {
+    font-size: 11pt;
+    margin-top: 10em;
+    margin-left: 3.1em;
+    text-align: center;
+    font-family: Helvetica neue;
+    font-weight: bold;
+    opacity:0.75;
+    color: #ffffff;
+    text-shadow: 0px 1.0px 0.3px #0F6AA5;
+}
+
+/*  style for spinner  */
+.normal-spinner {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    position:absolute; 
+    text-align:left;
+    width:100%;
+}
+
+
+/* new added -----Raj*/
+.reference_div {
+    margin-top: 1em;
+    margin-left: 0em;
+    margin-bottom: .9em;
+    
+    font-size: 10pt;
+    font-family: Helvetica neue;
+    color: #333333;
+}
+
+.references_in_div {
+    
+    margin-top: -1.7em;
+    margin-left: 1.6em;
+    margin-bottom: 0em;
+}
+
+.bottom_button {
+    
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-bottom: 0px;
+
+    height:44px; 
+    width: 320px;
+    border: 0px;
+    background-color : white;
+    Highlight:transparent;
+   /* padding: 0px 0px 0px 0px;*/
+   
+    -webkit-box-shadow: none;
+}
+
+.btn_title_on {
+    
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+    font-size: 15px;
+    color :#0176c3;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+}
+
+.btn_title_off {
+    
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+    font-size: 15px;
+    color :#999999;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: left;
+}
+
+/*------addtional gap------*/
+.div_gap {
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}

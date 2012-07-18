@@ -1,0 +1,59 @@
+
+/* This CSS is just for presentational purposes. */
+body {
+    background color : #000000;
+    margin-left: 8pt;
+    margin-right: 8pt;
+}
+
+img {
+    margin-bottom: .14em;
+}
+
+a {
+    text-decoration:none;
+    text-align: left;
+    color: #0176C3;
+}
+p {
+    font-size: 10pt;
+    margin-top: .6em;
+    margin-bottom: .4em;
+    text-align: left;/*justify*/
+    font-family: Helvetica neue;
+    color: #333333;
+    line-height: 14pt;
+    margin-left:0.0pt;
+}
+
+hr {
+    height:1px;
+    background-color: #DBDADA;
+    border:none;
+}
+/*
+ Introducing classes....
+ */
+.table_format {
+    margin-left: -2.0pt;
+    margin-top: 1.1em;
+    margin-bottom: .1em;
+}
+
+.journalTitle {
+    font-size: 17pt;
+    margin-top: 16.00pt;
+    margin-bottom: 0.7em;
+    text-align: left;
+    font-family: Georgia Regular;
+    color: #333333;
+}
+.imageHeader {
+    font-size: 10pt;
+    margin-top: 0.00em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica neue;
+    color: #333333;
+}
